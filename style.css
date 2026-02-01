@@ -940,9 +940,6 @@ a { color: inherit; text-decoration: none; }
     grid-template-columns: 1fr;
     gap: 32px;
   }
-  .education-cards {
-    grid-template-columns: 1fr;
-  }
   .competency-grid {
     grid-template-columns: repeat(2, 1fr);
   }
