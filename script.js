@@ -15,7 +15,6 @@ function hideLoader() {
 function getPageKey(pathname) {
   if (pathname.endsWith('about.html')) return 'about.html';
   if (pathname.endsWith('projects.html')) return 'projects.html';
-  if (pathname.endsWith('now.html')) return 'now.html';
   return 'index.html';
 }
 

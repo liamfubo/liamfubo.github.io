@@ -15,59 +15,55 @@
           <a href="index.html">首页</a>
           <a href="about.html">关于</a>
           <a href="projects.html" class="active" aria-current="page">项目</a>
-          <a href="now.html">进行中</a>
           <a href="#contact">联系我</a>
         </div>
       </header>
       <main class="container main">
-        <section class="projects-hero reveal">
-          <h1 class="projects-hero-title">算法与数据解决方案</h1>
-          <p class="projects-hero-sub">探索我如何运用数学模型与代码解决复杂的商业问题</p>
-        </section>
+        <section class="projects-board reveal">
+          <div class="projects-board-head">
+            <div>
+              <div class="projects-kicker">PROJECTS</div>
+              <h1 class="projects-board-title">算法与数据解决方案</h1>
+              <p class="projects-board-sub">探索我如何运用数学模型与代码解决复杂的商业问题</p>
+            </div>
+          </div>
 
-        <section class="timeline reveal">
-          <div class="timeline-spine" aria-hidden="true"></div>
+          <div class="projects-grid-alt">
+            <article class="project-card">
+              <div class="project-icon" style="color:#5E5CE6;">
+                <i class="ri-stock-line" aria-hidden="true"></i>
+              </div>
+              <div class="project-tag">QUANT</div>
+              <h2 class="project-title">Transformer 多因子选股</h2>
+              <p class="project-desc">引入 Transformer 处理高频/日频数据，构建 Alpha 因子并提升回测表现。</p>
+              <div class="project-meta">Transformer · 量化策略 · 深度学习</div>
+              <a class="project-link" href="#">查看详情 ↗</a>
+            </article>
 
-          <article class="timeline-item left">
-            <div class="timeline-icon" style="color:#5E5CE6;">
-              <i class="ri-stock-line" aria-hidden="true"></i>
-            </div>
-            <div class="timeline-dot" aria-hidden="true"></div>
-            <div class="timeline-card">
-              <div class="timeline-tag">QUANT</div>
-              <h2 class="timeline-title">Transformer 多因子选股</h2>
-              <p class="timeline-desc">引入 Transformer 处理高频/日频数据，构建 Alpha 因子并提升回测表现。</p>
-              <a class="timeline-link" href="#">查看代码 →</a>
-            </div>
-          </article>
+            <article class="project-card">
+              <div class="project-icon" style="color:#34C759;">
+                <i class="ri-shield-check-line" aria-hidden="true"></i>
+              </div>
+              <div class="project-tag">FINTECH</div>
+              <h2 class="project-title">借贷违约风险预测</h2>
+              <p class="project-desc">使用 SMOTE/加权策略处理样本不平衡，XGBoost 识别潜在违约借债人。</p>
+              <div class="project-meta">XGBoost · SMOTE · 风控建模</div>
+              <a class="project-link" href="#">查看详情 ↗</a>
+            </article>
 
-          <div class="timeline-note-block">以下项目太过久远，文件代码博主找不到了，不放了</div>
+            <article class="project-card">
+              <div class="project-icon" style="color:#0071E3;">
+                <i class="ri-line-chart-line" aria-hidden="true"></i>
+              </div>
+              <div class="project-tag">TIME SERIES</div>
+              <h2 class="project-title">企业订单时序预测</h2>
+              <p class="project-desc">基于历史出货数据建立 ARIMA 模型，预测未来订单量，为库存优化提供依据。</p>
+              <div class="project-meta">ARIMA · 时间序列 · 库存优化</div>
+              <a class="project-link" href="#">查看详情 ↗</a>
+            </article>
+          </div>
 
-          <article class="timeline-item right">
-            <div class="timeline-icon" style="color:#34C759;">
-              <i class="ri-shield-check-line" aria-hidden="true"></i>
-            </div>
-            <div class="timeline-dot" aria-hidden="true"></div>
-            <div class="timeline-card">
-              <div class="timeline-tag">FINTECH</div>
-              <h2 class="timeline-title">借贷违约风险预测</h2>
-              <p class="timeline-desc">使用 SMOTE/加权策略处理样本不平衡，XGBoost 识别潜在违约借债人。</p>
-              <a class="timeline-link" href="#">查看代码 →</a>
-            </div>
-          </article>
-
-          <article class="timeline-item left">
-            <div class="timeline-icon" style="color:#0071E3;">
-              <i class="ri-line-chart-line" aria-hidden="true"></i>
-            </div>
-            <div class="timeline-dot" aria-hidden="true"></div>
-            <div class="timeline-card">
-              <div class="timeline-tag">TIME SERIES</div>
-              <h2 class="timeline-title">企业订单时序预测</h2>
-              <p class="timeline-desc">基于历史出货数据建立 ARIMA 模型，预测未来订单量，为库存优化提供依据。</p>
-              <a class="timeline-link" href="#">查看代码 →</a>
-            </div>
-          </article>
+          <div class="projects-note">以下项目太过久远，文件代码博主找不到了，不放了</div>
         </section>
       </main>
       <footer class="footer">
